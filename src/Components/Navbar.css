@@ -1,0 +1,26 @@
+ul li{
+    display: inline;
+    margin-right: 20px;
+
+}
+.navbar{
+   
+    width: 100%;
+    padding: 10px 20px;
+    background:#33373A;
+    /* position: fixed; */
+    z-index: 1000;
+    color: #fff;
+   
+}
+.navbar a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    color: #fff;
+}
+.navbar a:hover{
+    color: #fff;
+    
+
+}
