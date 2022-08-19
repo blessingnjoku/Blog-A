@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
 import Cards from "../Components/Cards";
-import Navbar from "../Components/Navbar";
+
 
 const Home = (props) => {
   const [news, setNew] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
+
 
   const getnew = async () => {
     const res = await fetch(
@@ -27,7 +26,7 @@ const Home = (props) => {
   return (
     <div>
       {news.map((val, key) => {
-        // const { author, content, description, publishedAt, title, id } = val;
+       
         return (
           <div
             key={key}

@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-dark ">
-        logo
+        allNews
         <ul>
           <li>
             <Link to="/">Home</Link>
